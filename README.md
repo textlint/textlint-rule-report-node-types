@@ -1,4 +1,4 @@
-# textlint-rule-report-node-types
+# textlint-rule-report-node-types [![Build Status](https://travis-ci.org/textlint/textlint-rule-report-node-types.svg?branch=master)](https://travis-ci.org/textlint/textlint-rule-report-node-types)
 
 textlint rule that report error by node's type for **debugging**.
 
