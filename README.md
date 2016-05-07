@@ -8,10 +8,6 @@ Opposite <-> [textlint-rule-ignore-node-types](https://github.com/textlint/textl
 
     npm install textlint-rule-report-node-types
 
-Dependencies
-
-- textlint >=[6.5.0](https://github.com/textlint/textlint/releases/tag/6.5.0 "6.5.0")
-
 ## Usage
 
 If you want to report `BlockQuote` node, define `"BlockQuote"` to `"nodeTypes"`.
