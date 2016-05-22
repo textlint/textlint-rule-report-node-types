@@ -21,6 +21,24 @@ describe("textlint-rule-report-node-types", function () {
             });
         });
     });
+    context("when --fix report type", function () {
+        it("should fix with node type", function () {
+            const textlint = new TextLintCore();
+            textlint.setupRules({
+                report: reportRule
+            }, {
+                report: {
+                    nodeTypes: [TextLintNodeType.Str]
+                }
+            });
+            return textlint.fixText("text").then(({messages}) => {
+                assert.equal(messages.length, 1);
+                assert.equal(messages[0].message, TextLintNodeType.Str);
+                assert.deepEqual(messages[0].fix.range, [0, 4]);
+                assert.equal(messages[0].fix.text, "Str");
+            });
+        });
+    });
     context("when report multiple nodes", function () {
         it("should report multiple messages", function () {
             const textlint = new TextLintCore();
