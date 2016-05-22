@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/textlint/textlint-rule-report-node-types/issues"
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "textlint rule that report error by node's type for debugging.",
   "main": "lib/textlint-rule-report-node-types.js",
   "directories": {
