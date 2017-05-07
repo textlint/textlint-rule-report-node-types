@@ -1,5 +1,7 @@
 # textlint-rule-report-node-types [![Build Status](https://travis-ci.org/textlint/textlint-rule-report-node-types.svg?branch=master)](https://travis-ci.org/textlint/textlint-rule-report-node-types)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/textlint/textlint-rule-report-node-types.svg)](https://greenkeeper.io/)
+
 textlint rule that report error by node's type for **debugging**.
 
 Opposite <-> [textlint-rule-ignore-node-types](https://github.com/textlint/textlint-rule-ignore-node-types "textlint-rule-ignore-node-types").
